@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/bootstrap/css/bootstrap.min.css" />
-    <title>Document</title>
-  </head>
-  <body class="vh-100">
-    <header
-      class="w-100 h-25 fs-6 bg-black text-bg-primary d-flex align-items-center justify-content-center fs-1">
-      text
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آموزش Bootstrap - جلسه دوم</title>
+    <!-- لینک به فایل CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- سربرگ صفحه -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>خوش آمدید به وبسایت ما</h1>
+        <p>اینجا یک متن توضیحات برای سربرگ است.</p>
     </header>
 
-    <main class="w-100 h-50 bg-warning">
-      <p class="ps-3 pe-4 pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vero corrupti cupiditate quidem natus, molestias sequi delectus ipsum ipsam quam, architecto rem consequuntur excepturi dolores iusto impedit, atque dicta minima. Ex nostrum consectetur ratione reprehenderit incidunt distinctio exercitationem at tempore? Voluptatem sunt dolore earum velit voluptatibus exercitationem fuga neque possimus eaque provident, hic, ratione excepturi, consectetur perspiciatis nesciunt molestias repudiandae consequatur facere rerum! Quae maiores debitis atque, suscipit cum aliquam saepe commodi, eaque culpa tenetur corporis consectetur! Nesciunt pariatur est, maiores blanditiis dolorem enim! Impedit rerum iure soluta voluptas ut nisi, amet, corrupti vitae distinctio fuga molestias iste! Deleniti, quam commodi quasi corrupti unde ipsa sequi labore eaque minima nisi eos alias? Ullam, recusandae nobis. At deleniti quia delectus neque ratione vitae ipsa mollitia eius aperiam a quis facilis tempore magnam dolore reiciendis incidunt aspernatur, ad inventore vero cum in repellat temporibus tenetur culpa! Doloremque porro error iste dolorem ad.</p>
+    <!-- بخش اصلی صفحه -->
+    <main class="container my-5">
+        <section class="mb-4">
+            <h2 class="text-center">درباره ما</h2>
+            <p>اینجا یک متن توضیحات درباره وبسایت قرار داده می‌شود. این متن می‌تواند شامل اطلاعاتی درباره خدمات، محصولات یا هر موضوع دیگری باشد.</p>
+        </section>
 
+        <section class="mb-4">
+            <h2 class="text-center">خدمات ما</h2>
+            <ul class="list-unstyled text-center">
+                <li class="mb-2"><strong>سرویس 1:</strong> توضیحات سرویس اول</li>
+                <li class="mb-2"><strong>سرویس 2:</strong> توضیحات سرویس دوم</li>
+                <li class="mb-2"><strong>سرویس 3:</strong> توضیحات سرویس سوم</li>
+            </ul>
+        </section>
+
+        <section class="text-center">
+            <a href="#" class="btn btn-success btn-lg">تماس با ما</a>
+        </section>
     </main>
 
-
-
-    <footer class="position-relative w-100 h-25 fs-6 bg-primary text-bg-primary">
-      <span
-        class="position-absolute top-50 start-50 translate-middle fs-3 d-inline-block w-25 h-50 bg-danger text-center align-items-center justify-content-center d-flex"
-        >text</span
-      >
+    <!-- فوتر صفحه -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 تمامی حقوق محفوظ است.</p>
     </footer>
 
-    <script src="/assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 </html>
