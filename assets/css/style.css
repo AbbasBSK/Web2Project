@@ -1,0 +1,12 @@
+@font-face {
+  font-family: YEKAN;
+  src: url('/assets/fontYekan/yekan-font/yekan-regular.woff'), url('/assets/fontYekan/yekan-font/yekan-regular.eot') , url('/assets/fontYekan/yekan-font/yekan-regular.ttf');
+}
+
+.f_yekan{
+  font-family: YEKAN;
+}
+
+*{
+  font-family: YEKAN;
+}
