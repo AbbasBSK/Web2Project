@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>آموزش Bootstrap - جلسه دوم</title>
-    <!-- لینک به فایل CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="bg-warning ">
-
-    <!-- سربرگ صفحه -->
-    <header class="bg-primary text-white text-center py-4">
-        <h1>خوش آمدید به وبسایت ما</h1>
-        <p>اینجا یک متن توضیحات برای سربرگ است.</p>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه وب ساده با Bootstrap</title>
+    <!-- لینک به فایل CSS بوت استرپ -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- نوار ناوبری -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">وب‌سایت من</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">خدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تماس با ما</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- بخش اصلی صفحه -->
-    <main class="my-5">
-        <section class="mb-4">
-            <h2 class="text-center">درباره ما</h2>
-            <p>اینجا یک متن توضیحات درباره وبسایت قرار داده می‌شود. این متن می‌تواند شامل اطلاعاتی درباره خدمات، محصولات یا هر موضوع دیگری باشد.</p>
-        </section>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>به وب‌سایت ما خوش آمدید</h1>
+          <p class="lead">
+            این یک صفحه وب ساده است که با استفاده از Bootstrap طراحی شده است.
+          </p>
+          <p>
+            از کلاس‌های مختلف Bootstrap مانند flexbox برای چیدمان استفاده شده
+            است.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">اطلاعات تماس</h5>
+              <p class="card-text">
+                شما می‌توانید از طریق اطلاعات زیر با ما در تماس باشید.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">تلفن: ۰۱۲۳۴۵۶۷۸۹</li>
+                <li class="list-group-item">ایمیل: info@example.com</li>
+                <li class="list-group-item">آدرس: تهران، خیابان نمونه</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <section class="mb-4">
-            <h2 class="text-center">خدمات ما</h2>
-            <ul class="list-unstyled text-center">
-                <li class="mb-2"><strong>سرویس 1:</strong> توضیحات سرویس اول</li>
-                <li class="mb-2"><strong>سرویس 2:</strong> توضیحات سرویس دوم</li>
-                <li class="mb-2"><strong>سرویس 3:</strong> توضیحات سرویس سوم</li>
-            </ul>
-        </section>
-
-        <section class="text-center">
-            <a href="#" class="btn btn-success btn-lg">تماس با ما</a>
-        </section>
-    </main>
-
-    <!-- فوتر صفحه -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2023 تمامی حقوق محفوظ است.</p>
+    <!-- فوتر -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <p>تمامی حقوق محفوظ است &copy; ۲۰۲۳</p>
+      </div>
     </footer>
 
-</body>
+    <!-- لینک به فایل JS بوت استرپ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
