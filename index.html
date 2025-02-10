@@ -1,94 +1,103 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>طراحی جذاب با Bootstrap</title>
-    <!-- لینک به فایل CSS بوت استرپ -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body dir="rtl">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="">
+    <section class="d-flex flex-column min-vh-100">
+      <header class="bg-primary py-4 d-flex align-items-center flex-column">
+        <h2>به ویسایت ما خوش آمدید</h2>
+        <h4>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione,
+          error.
+        </h4>
+        <button class="btn btn-dark btn-lg"><a href="#contact">شروع کنید</a></button>
+      </header>
 
-    <!-- هدر -->
-    <header class="bg-primary text-white py-5">
+      <main class="bg-warning  d-flex flex-column py-4">
         <div class="container">
-            <div class="d-flex flex-column align-items-center text-center">
-                <h1 class="display-6">به وب‌سایت ما خوش آمدید!</h1>
-                <p class="lead">این یک طراحی جذاب و رنگارنگ با استفاده از Bootstrap است.</p>
-                <a href="#main-content" class="btn btn-light btn-lg mt-3">شروع کنید</a>
+          <div class="row justify-content-center align-items-center">
+            <!-- کارد 1 -->
+            <div
+              class="col-md-3 mx-md-3 my-md-0 my-3 bg-danger p-4 col-11 rounded-4 text-center d-flex flex-column"
+            >
+              <h2>عنوان</h2>
+              <h5>متن موزد نظز کارد</h5>
+              <img
+                class="img-fluid rounded-4"
+                src="/assets/img/car-03.jpg"
+                alt=""
+              />
+              <br />
+              <button class="btn btn-outline-warning">کلیک کنید</button>
             </div>
+            <!-- کارد 2 -->
+            <div
+              class="col-md-3 mx-md-3 my-md-0 my-3 bg-primary p-4 col-11 rounded-4 text-center d-flex flex-column"
+            >
+              <h2>عنوان</h2>
+              <h5>متن موزد نظز کارد</h5>
+              <img
+                class="img-fluid rounded-4"
+                src="/assets/img/car-03.jpg"
+                alt=""
+              />
+              <br />
+              <button class="btn btn-outline-light">کلیک کنید</button>
+            </div>
+            <!-- کارد 3 -->
+            <div
+              class="col-md-3 mx-md-3 my-md-0 my-3 bg-success p-4 col-11 rounded-4 text-center d-flex flex-column"
+            >
+              <h2>عنوان</h2>
+              <h5>متن موزد نظز کارد</h5>
+              <img
+                class="img-fluid rounded-4"
+                src="/assets/img/car-03.jpg"
+                alt=""
+              />
+              <br />
+              <button class="btn btn-outline-warning">کلیک کنید</button>
+            </div>
+          </div>
         </div>
-    </header>
 
-    <!-- بخش اصلی -->
-    <main id="main-content" class="py-5">
-        <div class="container">
-            <div class="row g-4">
-                <!-- کارت ۱ -->
-                <div class="col-md-4">
-                    <div class="bg-success text-white p-4 rounded shadow d-flex flex-column align-items-center h-100">
-                        <h2>خدمات ما</h2>
-                        <p class="text-center">ما بهترین خدمات را ارائه می‌دهیم.</p>
-                        <img src="/assets/img/google-spider.png" alt="خدمات" class="img-fluid rounded-circle mb-3">
-                        <button class="btn btn-light">بیشتر بدانید</button>
+        <section dir="rtl" class=" py-5">
+            <div class="container col-md-8">
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                    <div class="text-center text-md-start ">
+                        <h2>درباره ما</h2>
+                        <p class="lead">ما یک تیم حرفه‌ای هستیم که به شما کمک می‌کنیم بهترین نتیجه را بگیرید.</p>
+                        <ul  class="list-group shadow col-11 d-inline-block">
+                            <li class="list-group-item list-group-item-action text-end">تیم مجرب و حرفه‌ای</li>
+                            <li class="list-group-item list-group-item-action text-end">پشتیبانی ۲۴ ساعته</li>
+                            <li class="list-group-item list-group-item-action text-end">کیفیت بالا در خدمات</li>
+                        </ul>
                     </div>
-                </div>
-                <!-- کارت ۲ -->
-                <div class="col-md-4">
-                    <div class="bg-warning text-dark p-4 rounded shadow d-flex flex-column align-items-center h-100">
-                        <h2>پروژه‌ها</h2>
-                        <p class="text-center">پروژه‌های موفق ما را بررسی کنید.</p>
-                        <img src="/assets/img/google-spider.png" alt="پروژه‌ها" class="img-fluid rounded-circle mb-3">
-                        <button class="btn btn-dark">مشاهده پروژه‌ها</button>
-                    </div>
-                </div>
-                <!-- کارت ۳ -->
-                <div class="col-md-4">
-                    <div class="bg-danger text-white p-4 rounded shadow d-flex flex-column align-items-center h-100">
-                        <h2>تماس با ما</h2>
-                        <p class="text-center">برای ارتباط با ما اینجا کلیک کنید.</p>
-                        <img src="/assets/img/google-spider.png" alt="تماس" class="img-fluid rounded-circle mb-3">
-                        <button class=" btn btn-light">تماس بگیرید</button>
-                    </div>
+                    <img src="/assets/img/google-spider.png" alt="درباره ما" class=" img-fluid rounded-circle mt-4 mt-md-0 " style="max-width: 200px;">
                 </div>
             </div>
-        </div>
-    </main>
+        </section>
+      </main>
 
-    <!-- بخش درباره ما -->
-    <section class="bg-light py-5">
+      <footer class="lead bg-secondary py-4 text-center">
         <div class="container">
-            <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
-                <div class="text-center text-md-start">
-                    <h2>درباره ما</h2>
-                    <p class="lead">ما یک تیم حرفه‌ای هستیم که به شما کمک می‌کنیم بهترین نتیجه را بگیرید.</p>
-                    <ul  class="list-group">
-                        <li class="list-group-item list-group-item-action text-end">تیم مجرب و حرفه‌ای</li>
-                        <li class="list-group-item list-group-item-action text-end">پشتیبانی ۲۴ ساعته</li>
-                        <li class="list-group-item list-group-item-action text-end">کیفیت بالا در خدمات</li>
-                    </ul>
-                </div>
-                <img src="/assets/img/google-spider.png" alt="درباره ما" class="img-fluid rounded-circle mt-4 mt-md-0" style="max-width: 200px;">
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+          >
+            <p id="contact" class="mb-0">تماس &copy; ۲۰۲۳</p>
+            <div class="d-flex mt-3 mt-md-0">
+              <a href="#" class="text-white me-3">فیس‌بوک</a>
+              <a href="#" class="text-white me-3">توییتر</a>
+              <a href="#" class="text-white">اینستاگرام</a>
             </div>
+          </div>
         </div>
+      </footer>
     </section>
-
-    <!-- فوتر -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
-                <p class="mb-0">تماس &copy; ۲۰۲۳</p>
-                <div class="d-flex mt-3 mt-md-0">
-                    <a href="#" class="text-white me-3">فیس‌بوک</a>
-                    <a href="#" class="text-white me-3">توییتر</a>
-                    <a href="#" class="text-white">اینستاگرام</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- لینک به فایل JS بوت استرپ -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
