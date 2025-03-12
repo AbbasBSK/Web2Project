@@ -155,111 +155,107 @@
     </header>
 
     <main
-      class="text-center relative p-6 flex-grow bg-center bg-cover bg-amber-50 mix-blend-overlay  bg-opacity-80 bg-[url(/assets/img/05.jpg)] bg-blend-overlay"
-    >
-      <h1 class="text-2xl text-gray-900">main content</h1>
+    class="text-center relative p-6 flex-grow bg-center bg-cover bg-amber-50 mix-blend-overlay  bg-opacity-80 bg-[url(/assets/img/05.jpg)]  bg-blend-overlay">
 
-      <div
-        class="grid grid-cols-1 md:grid-cols-4 gap-4 mt-4  border-2 rounded-2xl overflow-hidden"
-      >
-        <div
-          class="bg-red-600 col-span-1  h-24 flex justify-center items-center"
-        >
-          1
-        </div>
-        <div
-          class="bg-green-400 col-span-1  h-24 flex justify-center items-center"
-        >
-          2
-        </div>
-        <div
-          class="bg-yellow-500 col-span-1  h-24 flex justify-center items-center"
-        >
-          3
-        </div>
-        <div
-          class="bg-red-600 col-span-1 h-24 flex justify-center items-center"
-        >
-          1
-        </div>
-        <div
-          class="bg-green-400 col-span-1 h-24 flex justify-center items-center"
-        >
-          2
-        </div>
-        <div
-          class="bg-red-600 col-span-1 h-24 flex justify-center items-center"
-        >
-          1
-        </div>
-        <div
-          class="bg-yellow-500 md:col-span-2 h-24 flex justify-center items-center"
-        >
-          3
-        </div>
+
+    <h1 class="text-2xl text-gray-900">main content</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mt-4  border-2 rounded-2xl overflow-hidden">
+      <div class="bg-red-600 col-span-1  h-24 flex justify-center items-center">
+        1
       </div>
-      <br /><br />
-
-      <div
-        class="flex md:flex-row flex-col gap-4 h-24 mt-4 border border-2 rounded-2xl overflow-hidden"
-      >
-        <div class="bg-red-600 flex-1 h-full flex justify-center items-center">
-          1
-        </div>
-        <div
-          class="bg-green-400 flex-1 h-full flex justify-center items-center"
-        >
-          2
-        </div>
-        <div class="bg-red-200 flex-1 h-full flex justify-center items-center">
-          3
-        </div>
+      <div class="bg-green-400 col-span-1  h-24 flex justify-center items-center">
+        2
       </div>
-
-      <section class="p-4 mt-12">
-        <div
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
-        >
-          <!-- تصویر ۳ -->
-          <a
-            id="pigGallery"
-            href="#picBox"
-            class="relative overflow-hidden p-6 rounded-lg"
-          >
-            <img
-              src="/assets/img/person.png"
-              alt="تصویر ۳"
-              class="w-full h-full object-cover"
-            />
-            <div
-              class="absolute inset-0 group bg-black opacity-50 hover:opacity-10 transition duration-300"
-            >
-              <p
-                class="text-white text-center opacity-0 group-hover:opacity-100 group-hover:text-amber-300 mt-4 duration-300"
-              >
-                توضیحات تصویر ۳
-              </p>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <div
-        id="picBox"
-        class="absolute top-0 transition-all duration-700 bg-opacity-50 opacity-0 invisible target:visible flex target:opacity-100 flex-col justify-center items-center w-full md:w-[50%] py-24 bg-gray-600 bottom-0 left-0 right-0 m-auto rounded-2xl"
-      >
-        <img class="w-10/12" src="/assets/img/person.png" alt="" />
-
-        <a
-          href="#pigGallery"
-          class="bg-black rounded-full mt-2 p-3 text-2xl border-red-800 border-4"
-          >❌</a
-        >
+      <div class="bg-yellow-500 col-span-1  h-24 flex justify-center items-center">
+        3
       </div>
+      <div class="bg-red-600 col-span-1 h-24 flex justify-center items-center">
+        1
+      </div>
+      <div class="bg-green-400 col-span-1 h-24 flex justify-center items-center">
+        2
+      </div>
+      <div class="bg-red-600 col-span-1 h-24 flex justify-center items-center">
+        1
+      </div>
+      <div class="bg-yellow-500 md:col-span-2 h-24 flex justify-center items-center">
+        3
+      </div>
+    </div>
+    <br /><br />
+
+    <div class="flex md:flex-row flex-col gap-4 h-24 mt-4 border-2 rounded-2xl overflow-hidden">
+      <div class="bg-red-600 flex-1 h-full flex justify-center items-center">
+        1
+      </div>
+      <div class="bg-green-400 flex-1 h-full flex justify-center items-center">
+        2
+      </div>
+      <div class="bg-red-200 flex-1 h-full flex justify-center items-center">
+        3
+      </div>
+    </div>
+
+    <section class="p-4 mt-12">
+      <div class="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- تصویر ۳ -->
+        <a id="pigGallery" href="#picBox" class="relative overflow-hidden p-6 rounded-lg">
+          <img src="/assets/img/person.png" alt="تصویر ۳" class="w-full h-full object-cover" />
+          <div
+            class="absolute flex justify-center items-end  inset-0 group bg-black bg-opacity-50 hover:bg-opacity-10 transition duration-300">
+            <p
+              class="text-white bg-amber-400 outline-solid outline-4 outline-offset-1 outline-sky-700 p-3 shadow-2xl mb-5  inset-shadow-black shadow-black rounded-2xl text-center text-3xl opacity-0 group-hover:opacity-100 group-hover:text-black mt-4 duration-300">
+              کلیک کنید...
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div id="picBox"
+      class="absolute top-0 transition-all duration-700 bg-opacity-50 opacity-0 invisible target:visible flex target:opacity-100 flex-col justify-center items-center w-full md:w-[50%] py-24 bg-gray-600 bottom-0 left-0 right-0 m-auto rounded-2xl">
+      <img class="w-10/12" src="/assets/img/person.png" alt="" />
+
+      <a href="#pigGallery" class="bg-black rounded-full mt-2 p-3 text-2xl border-red-800 border-4">❌</a>
+    </div>
 
 
-      
+    <div class="grid grid-cols-6 gap-4">
+      <div class="bg-amber-300 p-10 col-span-4 col-start-2 ">01</div>
+      <div class="bg-amber-300 p-10 col-start-1 col-end-3 ">02</div>
+      <div class="bg-amber-300 p-10 col-span-2 col-end-7 ">03</div>
+      <div class="bg-amber-300 p-10 col-start-1 col-end-7 ">04</div>
+    </div>
 
-    </main>
+    <div class="grid grid-flow-col grid-rows-4 gap-4">
+      <div class="bg-white border-2 border-black p-10">1</div>
+      <div class="bg-white border-2 border-black p-10">2</div>
+      <div class="bg-white border-2 border-black p-10">3</div>
+      <div class="bg-white border-2 border-black p-10">4</div>
+      <div class="bg-white border-2 border-black p-10">5</div>
+      <div class="bg-white border-2 border-black p-10">1</div>
+      <div class="bg-white border-2 border-black p-10">1</div>
+      <div class="bg-white border-2 border-black p-10">8</div>
+      <div class="bg-white border-2 border-black p-10">09</div>
+    </div>
+
+    <div class="grid grid-flow-col grid-rows-3 gap-4">
+      <div class="p-10 bg-red-500 row-span-2 row-start-2 ">01</div>
+      <div class="p-10 bg-red-500 row-span-2 row-end-3 ">02</div>
+      <div class="p-10 bg-red-500 row-start-1 row-end-4 ">03</div>
+    </div>
+
+
+
+
+
+  </main>
+
+  <footer class="p-10 flex justify-center items-center bg-blue-900">
+    footer content
+  </footer>
+
+
   </body>
 </html>
