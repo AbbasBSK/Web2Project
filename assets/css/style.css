@@ -6,3 +6,50 @@
 *{
   font-family:YEKAN ;
 }
+
+
+/* body {
+  background-color: #1e2421;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+} */
+
+.ring {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff8c3e 0% 90%,  /* رنگ نارنجی تا حدود 90% */
+    #444 90% 100%    /* رنگ خاکستری تا تکمیل دایره */
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.ring::before {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  background-color: #1e2421; 
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.number {
+  font-size: 72px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.label {
+  font-size: 24px;
+  z-index: 2;
+}
